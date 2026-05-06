@@ -271,4 +271,3 @@ def generate_name(environment: str, role: str, location: str, sequence: int) -> 
     name = f"VM-{environment}-{role}-{location}-{sequence:03d}"
     logger.info(f"[naming] Generated hostname: {name}")
     return name
-
